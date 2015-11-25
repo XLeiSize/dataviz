@@ -1,0 +1,25 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #ffb49c;
+}
+audio {
+  /*display: none;*/
+}
+
+#parc_infos{
+	position: absolute;
+	right:0;
+	text-align: right;
+}
+
+svg{
+	position: absolute;
+	top:0;
+	left:0;
+	z-index: -10;
+	width:65%;
+	max-width:800px;
+}
