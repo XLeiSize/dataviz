@@ -2,17 +2,68 @@
 	margin: 0;
 	padding: 0;
 }
+html{
+	font-size: 16px;
+}
 body{
 	background-color: #ffb49c;
+	font-family: 'arial', sans-serif;
 }
-audio {
-  /*display: none;*/
+
+section.layer-1{
+	width:100vw;
+	height:100vh;
+	display:block;
+	background-color: #82cc3f;
+	position: absolute;
+	color:#FFF;
+	background-image: url('../img/arbre.svg');
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size : auto 80%;
+	transform:translateY(O);
+}
+
+.layer-1 p{
+	position:absolute;
+	top:10px;
+}
+
+.left{
+	left:10px;
+}
+
+.right{
+	right:10px;
+}
+
+.layer-1 h1{
+	text-align: center;
+	margin-top:50vh;
+}
+h1 span{
+	padding:20px 25px;
+	border: 2px solid #FFF;
+	font-size: 4.5rem;
+}
+.layer-1 h2{
+	margin-top: 30px;
+	text-align: center;
+}
+
+.layer-1 img{
+	display: block;
+	margin:0 auto;
 }
 
 #parc_infos{
 	position: absolute;
+	z-index: -9;
 	right:0;
 	text-align: right;
+	display: block;
+	width:auto;
+	animation: animation 1.3565s 1 ease;
 }
 
 svg{
@@ -20,6 +71,24 @@ svg{
 	top:0;
 	left:0;
 	z-index: -10;
-	width:65%;
-	max-width:800px;
+	width:800px;
+}
+
+@-webkit-keyframes animation {
+from { -webkit-transform: rotate(0deg) scale(0.789) skew(0deg) translate(-300px); 
+		opacity:0;}
+to { -webkit-transform: rotate(0deg) scale(0.789) skew(0deg) translate(300px); 
+		opacity:1;}
+}
+@-moz-keyframes animation {
+from { -moz-transform: rotate(0deg) scale(0.789) skew(0deg) translate(-300px);
+		opacity:0; }
+to { -moz-transform: rotate(0deg) scale(0.789) skew(0deg) translate(300px); 
+		opacity:1;}
+}
+@-o-keyframes animation {
+from { -o-transform: rotate(0deg) scale(0.789) skew(0deg) translate(-300px);
+		opacity:0; }
+to { -o-transform: rotate(0deg) scale(0.789) skew(0deg) translate(300px);
+		opacity:1; }
 }

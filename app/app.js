@@ -13,46 +13,49 @@ class App {
 
   constructor() {
 
+    this.animateMap();
+
     this.DELTA_TIME = 0;
     this.LAST_TIME = Date.now();
 
     this.width = window.innerWidth/2;
     this.height = window.innerHeight/2;
 
-    this.scene = new Scene();
+    let scene = this.scene = new Scene();
     let root = document.body.querySelector('.app')
     root.appendChild( this.scene.renderer.view );
-
-    // let mapTexture = PIXI.Texture.fromImage('img/map.png');
-    // this.map =  new PIXI.Sprite(mapTexture);
-    // this.map.scale.set(0.8);
-    // this.map.position.set(0,0);
-    //  this.scene.addChild(this.map);
 
     this.options = {
       width : this.width,
       height : this.height
     }
 
-    this.data = new Data(this.options);
-    emitter.on('dataLoaded', function(){
-      console.log(this.data.coordsXY[0]);
-      var coords = this.data.coordsXY;
+    this.trees = [];
 
-      for ( var i = 0; i < coords.length; i++){
-        let options = {
-          x : coords[i].x*0.65,
-          y : coords[i].y*1.1,
-          size : this.data.surfaces[i],
-          content : this.data.contents[i]
-        };
-        console.log(options);
-        this.tree = new Tree(options);
-        this.scene.addChild(this.tree);
-      }
-    }.bind(this));
+    this.data = new Data(this.options);
+
+      emitter.on('dataLoaded', function(){
+        console.log(this.data.coordsXY[0]);
+        var coords = this.data.coordsXY;
+
+        for ( var i = 0; i < coords.length; i++){
+          let options = {
+            x : coords[i].x*0.65,
+            y : coords[i].y*1.1,
+            size : this.data.surfaces[i],
+            content : this.data.contents[i]
+          };
+          this.tree = new Tree(options);
+          this.trees.push(this.tree);
+          scene.addChild(this.tree);
+        }
+        console.log(this.trees);
+        emitter.emit('pushEnd');
+      }.bind(this));
     
-    
+
+    // var overlayer = document.getElementById('overlayer');
+    // overlayer.style.top = 0;
 
     this.addListeners();
 
@@ -74,17 +77,18 @@ class App {
    * - Triggered on every TweenMax tick
    */
   update() {
-    if(this.tree.scale.factor < this.data.surfaces[i]){
-      this.tree.scale.factor += 0.1;
-    }
-      
-    
+    // emitter.on('pushEnd', function(){
+
+      console.log(this.trees);
+
+    //   for (let i = 0; this.trees.length; i++){
+    //     console.log( this.trees[i]);
+    //     this.trees[i].update();
+    //   }
+    // }.bind(this));
     this.scene.render();
 
-
   }
-
-
 
   /**
    * onResize
@@ -100,6 +104,12 @@ class App {
 
 
   }
+
+  animateMap(){
+    let el = document.getElementById('map');
+    TweenMax.staggerFrom(".ardt", 0.5,{opacity: 0, scale: 1.5, rotation:45, delay: 0.5}, 0.05);
+  }
+
 
 
 }

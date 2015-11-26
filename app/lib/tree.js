@@ -18,7 +18,7 @@ class Tree extends Sprite {
         this.options = options;
         this.x = this.options.x;
         this.y = this.options.y;
-        this.scale.factor = this.options.size*0;
+        this.scale.factor = this.options.size;
         this.scale.x = this.scale.factor;
         this.scale.y = this.scale.factor;
         this.anchor.x = 0.5;
@@ -33,7 +33,12 @@ class Tree extends Sprite {
 		   							'<br>' + 
 		   							Math.round(this.options.content.surface /1000) +
 		   							"km<SUP>2</SUP>";
+            var margin = 40; 
+            document.getElementById("parc_infos").style.right = (margin)+"px";
 		}
+     }
+     update(){
+        this.scale.factor = this.options.size;
      }
     // move(dt){
     //     this.x += Math.sin(this.angle * Math.PI/180) * this.vx;
@@ -46,14 +51,14 @@ class Tree extends Sprite {
     //         this.isAlive = false;
     //     }
     // }
-     reset(options) {
-        this.x = options.x;
-        this.y = options.y;
+    //  reset(options) {
+    //     this.x = options.x;
+    //     this.y = options.y;
         
-        this.life = Math.random()*2000 + 1000;
-        this.alpha = 1;
-        // this.isAlive = true;
-    }
+    //     this.life = Math.random()*2000 + 1000;
+    //     this.alpha = 1;
+    //     // this.isAlive = true;
+    // }
 
 
 
