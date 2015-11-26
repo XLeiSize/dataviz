@@ -6,8 +6,12 @@ html{
 	font-size: 16px;
 }
 body{
-	background-color: #ffb49c;
+	background-image: url('../img/fond.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
 	font-family: 'arial', sans-serif;
+	width:100%;
+	height:100%;
 }
 
 section.layer-1{
@@ -16,25 +20,32 @@ section.layer-1{
 	display:block;
 	background-color: #82cc3f;
 	position: absolute;
+	z-index: 10;
 	color:#FFF;
-	background-image: url('../img/arbre.svg');
+	background-image: url('../img/arbre-fond.svg');
 	background-repeat: no-repeat;
 	background-position: center bottom;
 	background-size : auto 80%;
-	transform:translateY(O);
+	transition: all 1s ease-in-out;
+	
 }
 
 .layer-1 p{
 	position:absolute;
-	top:10px;
+	top:50px;
+}
+.layer-1 #arrow{
+	position:absolute;
+	bottom:50px;
+	right:50px;
 }
 
 .left{
-	left:10px;
+	left:50px;
 }
 
 .right{
-	right:10px;
+	right:50px;
 }
 
 .layer-1 h1{
@@ -56,10 +67,15 @@ h1 span{
 	margin:0 auto;
 }
 
+#header{
+	font-size: 4rem;
+}
+
 #parc_infos{
 	position: absolute;
 	z-index: -9;
-	right:0;
+	right:50px;
+	top:50px;
 	text-align: right;
 	display: block;
 	width:auto;
@@ -68,18 +84,113 @@ h1 span{
 
 svg{
 	position: absolute;
-	top:0;
-	right:0px;
+	top:50%;
+	margin-top: -300px;
+	right:90px;
 	z-index: -10;
 	width:800px;
+	overflow: visible;
 }
 
 canvas{
 	position: absolute;
-	right:0px;
+	top:50%;
+	margin-top: -300px;
+	right:90px;
 }
 
-@-webkit-keyframes animation {
+.pollution{
+	width:705px;
+	height:auto;
+	position: absolute;
+	bottom:20px;
+	left:20px;
+}
+.line{
+	display: inline-block;
+	width:50px;
+	height:1px;
+	border-bottom:5px solid #FFF;
+	top:50%;
+	margin-top: -2px;
+	z-index: -1;
+}
+.pictos{
+	border-radius: 50%;
+	border:5px solid #FFF;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-position: center center;
+	width:100px;
+	height:100px;
+	display:inline-block;
+	position: relative;
+	padding: 10px;
+	box-sizing:border-box;
+	vertical-align: middle;
+	transition:all 0.3s ease;
+}
+
+.pictos>svg{
+	width:50px;
+	z-index: 10;
+	display: inline-block;
+	margin: 0 auto;
+	position: absolute;
+	left:50%;
+	top:50%;
+	margin-left: -25px;
+	margin-top: -20px;
+}
+
+#voiture{
+	background-image: url('../img/pictos/Picto-voiture.png');
+}
+#chauffage{
+	background-image: url('../img/pictos/Picto-chauffage.png');
+}
+#usine{
+	background-image: url('../img/pictos/Picto-usine.png');
+}
+#transport{
+	background-image: url('../img/pictos/Picto-avion.png');
+}
+#agriculture{
+	background-image: url('../img/pictos/Picto-tracteur.png');
+}
+
+#voiture.active{
+	background-image: url('../img/pictos/Picto-voiture-active.png');
+}
+#chauffage.active{
+	background-image: url('../img/pictos/Picto-chauffage-active.png');
+}
+#usine.active{
+	background-image: url('../img/pictos/Picto-usine-active.png');
+}
+#transport.active{
+	background-image: url('../img/pictos/Picto-avion-active.png');
+}
+#agriculture.active{
+	background-image: url('../img/pictos/Picto-tracteur-active.png');
+}
+
+.pictos.active{
+	border-color: #000;
+}
+
+.pictos.active{
+	 
+}
+
+
+.pictos img{
+	margin:0 auto;
+}
+
+
+
+/*@-webkit-keyframes animation {
 from { -webkit-transform: rotate(0deg) scale(0.789) skew(0deg) translate(-300px); 
 		opacity:0;}
 to { -webkit-transform: rotate(0deg) scale(0.789) skew(0deg) translate(300px); 
@@ -97,3 +208,4 @@ from { -o-transform: rotate(0deg) scale(0.789) skew(0deg) translate(-300px);
 to { -o-transform: rotate(0deg) scale(0.789) skew(0deg) translate(300px);
 		opacity:1; }
 }
+*/

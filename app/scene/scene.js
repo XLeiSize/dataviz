@@ -6,10 +6,10 @@ class Scene {
   /**
    * @constructor
    */
-  constructor() {
+  constructor(options) {
 
-    this.width = 800;
-    this.height = window.innerHeight;
+    this.width = options.width;
+    this.height = options.height;
     this.renderer = new WebGLRenderer( this.width, this.height, { antialias: true, transparent: true } );
 
     this.stage = new Container();

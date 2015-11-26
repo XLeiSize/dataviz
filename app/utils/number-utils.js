@@ -24,6 +24,10 @@ const NumberUtils = {
 
     return radians * ( 180 / Math.PI );
 
+  },
+
+  getRandom(min, max) {
+    return Math.random() * (max - min + 1) + min;
   }
 
 };

@@ -9,11 +9,11 @@ import Data from './data';
 // }
 // default export Map;
 
-import { Sprite, BLEND_MODES } from 'pixi.js';
+import { Sprite } from 'pixi.js';
 
 class Tree extends Sprite {
     constructor(options){
-        var texture = PIXI.Texture.fromImage("./img/arbre.png");
+        var texture = PIXI.Texture.fromImage("../img/arbre.png");
         super(texture);
         this.options = options;
         this.x = this.options.x;
@@ -24,9 +24,9 @@ class Tree extends Sprite {
         this.anchor.x = 0.5;
         this.anchor.y = 0.5;
         this.interactive = true;
-        this.mouseover = function(mouseData){
-           console.log("MOUSE OVER!");
-        }
+        // this.mouseover = function(mouseData){
+        //    console.log("MOUSE OVER!");
+        // }
         this.click = function(mouseData){
 		   document.getElementById('parc_infos').innerHTML = 
 		   							this.options.content.name + 
@@ -37,8 +37,13 @@ class Tree extends Sprite {
             document.getElementById("parc_infos").style.right = (margin)+"px";
 		}
      }
-     update(){
-        this.scale.factor = this.options.size;
+     update(dt){
+        this.currentTime += dt;
+
+        if(this.currentTime > 1000){
+            this.scale.factor += 0.1;
+            this.currentTime = 0;
+        }
      }
     // move(dt){
     //     this.x += Math.sin(this.angle * Math.PI/180) * this.vx;

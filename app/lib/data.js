@@ -21,16 +21,23 @@ class Data {
 		req.onreadystatechange = function(){
 			if(req.readyState == 4){
 				var data = JSON.parse(req.responseText);
+
 				data.sort(function(a, b) {
 				    return b.fields.surface_to - a.fields.surface_to;
 				});
+
 				console.log(data);
+
 				var somme =0;
+
 				for(var i = 0; i < data.length; i++){
+
 					this.parcs.push(data[i].fields);
 					let coords = data[i].fields.geom_x_y;
 					let fields = data[i].fields;
+
 					somme += fields.surface_to;
+					
 					if(data[i].fields.surface_to >=20000){
 						this.coords.push({
 									x:coords[1],
@@ -105,7 +112,6 @@ class Data {
 		let max = Math.max.apply(null, surfaces);
 		for(let i = 0; i < surfaces.length; i++){
 			let size = Math.round( surfaces[i]/max * 10) / 10;
-			console.log(surfaces[i]/max);
 			if(size < 0.3){
 				size = 0.3;	
 			} else if(size > 0.3 && size < 0.4){
