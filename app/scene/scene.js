@@ -8,7 +8,7 @@ class Scene {
    */
   constructor() {
 
-    this.width = window.innerWidth;
+    this.width = 800;
     this.height = window.innerHeight;
     this.renderer = new WebGLRenderer( this.width, this.height, { antialias: true, transparent: true } );
 

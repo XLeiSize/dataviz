@@ -97,7 +97,7 @@ class App {
    */
   onResize( evt ) {
 
-    this.width = window.innerWidth;
+    this.width = 800;
     this.height = window.innerHeight;
 
     this.scene.resize( this.width, this.height );
@@ -108,6 +108,7 @@ class App {
   animateMap(){
     let el = document.getElementById('map');
     TweenMax.staggerFrom(".ardt", 0.5,{opacity: 0, scale: 1.5, rotation:45, delay: 0.5}, 0.05);
+    TweenMax.from(".river", 0.5,{opacity: 0, scale: 1.5, rotation:45, delay: 1.55});
   }
 
 
