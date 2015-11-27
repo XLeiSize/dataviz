@@ -18,7 +18,6 @@ class Tree extends Sprite {
         //    console.log("MOUSE OVER!");
         // }
         this.click = function(mouseData){
-            
             $('#parc_infos').css({opacity:0});
             var margin = 40; 
             // this.tint = 0x000;
