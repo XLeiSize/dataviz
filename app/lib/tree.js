@@ -14,6 +14,7 @@ class Tree extends Sprite {
         this.anchor.x = 0.5;
         this.anchor.y = 0.5;
         this.interactive = true;
+        this.alpha = 1;
         // this.mouseover = function(mouseData){
         //    console.log("MOUSE OVER!");
         // }
@@ -37,32 +38,15 @@ class Tree extends Sprite {
 
      }
      update(dt){
-        this.currentTime += dt;
-
-        if(this.currentTime > 1000){
-            this.alpha +=0.1;
-            this.currentTime = 0;
+        if(this.alpha < 1){
+            this.alpha += 0.1;
         }
+    
      }
-    // move(dt){
-    //     this.x += Math.sin(this.angle * Math.PI/180) * this.vx;
-    //     this.y += Math.cos(this.angle * Math.PI/180) * this.vy;
-    //     if(this.life <= 100){
-    //         this.alpha = (this.life/100);
-    //     }
-    //     this.life -= dt;
-    //     if(this.life <= 0){
-    //         this.isAlive = false;
-    //     }
-    // }
-    //  reset(options) {
-    //     this.x = options.x;
-    //     this.y = options.y;
-        
-    //     this.life = Math.random()*2000 + 1000;
-    //     this.alpha = 1;
-    //     // this.isAlive = true;
-    // }
+
+     animate(){
+            TweenMax.fromTo(this, Math.random()*3+1, {y:-100}, {y: this.y, ease: Expo.easeOut, delay:1})
+     }
 
 
 

@@ -19,16 +19,45 @@ class App {
     $('#arrow').click(function(e){
       e.preventDefault();
       $('#overlayer').css({
-       transform: 'translateY(-100%) ',
-       MozTransform: 'translateY(-100%)',
-       WebkitTransform: 'translateY(-100%) ',
-       msTransform: 'translateY(-100%)'
+       transform: 'translateY(-101%) ',
+       MozTransform: 'translateY(-101%)',
+       WebkitTransform: 'translateY(-101%) ',
+       msTransform: 'translateY(-101%)'
       });
       emitter.emit('closeHome');
     })
     emitter.on('closeHome', function(){
       this.animateMap();
     }.bind(this));
+
+
+    $('#arrow2').click(function(e){
+      e.preventDefault();
+      $('#underlayer').css({
+       transform: 'translateY(0%) ',
+       MozTransform: 'translateY(0%)',
+       WebkitTransform: 'translateY(0%) ',
+       msTransform: 'translateY(0%)'
+      });
+      emitter.emit('endPage');
+    })
+
+    $('#replay').click(function(e){
+      e.preventDefault();
+      $('#underlayer').css({
+       transform: 'translateY(100%) ',
+       MozTransform: 'translateY(100%)',
+       WebkitTransform: 'translateY(100%) ',
+       msTransform: 'translateY(100%)'
+      });
+      $('#overlayer').css({
+       transform: 'translateY(0%) ',
+       MozTransform: 'translateY(0%)',
+       WebkitTransform: 'translateY(0%) ',
+       msTransform: 'translateY(0%)'
+      });
+      emitter.emit('endPageClose');
+    })
     
 
     this.DELTA_TIME = 0;
@@ -54,23 +83,22 @@ class App {
 
     this.data = new Data(this.options);
 
-      emitter.on('dataLoaded', function(){
-        var coords = this.data.coordsXY;
+    emitter.on('MapLoaded', function(){
+      var coords = this.data.coordsXY;
 
-        for ( var i = 0; i < coords.length; i++){
-          let options = {
-            x : coords[i].x*0.65,
-            y : coords[i].y*1.1,
-            size : this.data.surfaces[i],
-            content : this.data.contents[i]
-          };
-          this.tree = new Tree(options);
-          this.trees.push(this.tree);
-          scene.addChild(this.tree);
-        }
-        emitter.emit('pushEnd');
-      }.bind(this));
-    
+      for ( var i = 0; i < coords.length; i++){
+        let options = {
+          x : coords[i].x*0.65,
+          y : coords[i].y*1.1,
+          size : this.data.surfaces[i],
+          content : this.data.contents[i]
+        };
+        this.tree = new Tree(options);
+        this.trees.push(this.tree);
+        scene.addChild(this.tree);
+        this.trees[i].animate();
+      }
+    }.bind(this));
       
     this.pollution = new Pollution(scene);
 
@@ -128,7 +156,7 @@ class App {
               this.pollution.throw1(this.pollutionNb[i], this.pollutionAlpha[i],this.pollutionArr[i]);
               // this.animateBarretteIn($(bar).children('.barrette'));
               $(bar).children('.barrette').addClass('selected');
-              $('#message').children('.title').html(this.pollutionName[i] + " :"); 
+              $('#message').children('.title').html(this.pollutionName[i] + " :").append('<span class="line"></span>'); 
               $('#message').children('.description').html("Il représente " + this.pollutionNb[i] + "% du dyoxyde d'azote rejeté dans l'air. <br>");
               
             }else{
@@ -174,11 +202,9 @@ class App {
         this.pollution.update(this.DELTA_TIME, this.pollutionArr[i]);
       };
 
-    emitter.on('MapLoaded', function(){
       for (let i = 0; i < this.trees.length; i++){
         this.trees[i].update(this.DELTA_TIME);
       }
-    }.bind(this));
       
     this.scene.render();
 
@@ -201,8 +227,9 @@ class App {
 
   animateMap(){
     let el = document.getElementById('map');
-    TweenMax.staggerFrom(".ardt", 0.5,{opacity: 0, scale: 1.5, rotation:45, delay: 1.2}, 0.05);
-    TweenMax.from(".river", 0.5,{opacity: 0, scale: 1.5, rotation:45, delay: 2, onComplete : emitter.emit('MapLoaded')});
+    TweenMax.staggerFrom(".ardt", 0.5,{opacity: 0, scale: 1.5, rotation:45, delay: 0.5}, 0.01);
+    TweenMax.from(".river", 0.5,{opacity: 0, scale: 30, delay: 1.5});
+    emitter.emit('MapLoaded');
   }
   animateBarrette(el){
       TweenMax.staggerFrom(el, 0.1,{opacity:0, y:-300, delay: 0.5}, 0.01);

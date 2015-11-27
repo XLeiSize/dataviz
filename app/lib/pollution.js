@@ -14,8 +14,8 @@ class Pollution {
         this.transport = [];
         this.agriculture = [];
         this.options = {
-            x: window.innerWidth/2,
-            y: window.innerHeight-150
+            x: this.scene.width,
+            y: this.scene.height
         };
         this.currentTime = 0;
 
@@ -65,7 +65,7 @@ class Pollution {
             let n = this.getNuageFromPool();
             n.alpha = 0;
             setInterval(function(){
-                if(n.alpha != alpha){
+                if(n.alpha < alpha){
                     n.alpha += 0.1;
                 }
             }, 100);

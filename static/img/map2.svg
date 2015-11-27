@@ -5,7 +5,7 @@
 	 width="834px" height="682px" viewBox="70.5 184.5 834 682" enable-background="new 70.5 184.5 834 682" xml:space="preserve">
 <g id="path35778" inkscape:label="#path35778" sodipodi:nodetypes="ccccccccccccccccccccccc">
 	
-		<image overflow="visible" opacity="0.07" width="284" height="344" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAR0AAAFZCAYAAAClo/sBAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+		<image class="ardt" overflow="visible" opacity="0.07" width="284" height="344" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAR0AAAFZCAYAAAClo/sBAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
 GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAKPBJREFUeNrsnYlSG0uwbatbA3h4
 //+jNjYG1O+eCHRvOZ1TtVo9aWVEBxLgASQt7Z2VQykEQRAEQRAEQRAEQRAEQRAE4UTHr4DYwXN3
 4NcBdAhi6ecpIAI6BHHTc7PluToAIaBDEGOek9rt6Dk7KJAZgA/QIQjv+ah9HAud+uOA+gE6BKEp
@@ -193,10 +193,10 @@ rLGqFwVIGmwADgF0VvwzZAHT+mezCqk0gMe7CiqHADrbBtCt9zN7sTzoFEPBRMoG4BBAZ8M/W3fD
 Q/DCIe7yewUuBEEQBEEQBEEQBEEQBEFsNv6/AAMA4TlnMnxTrA0AAAAASUVORK5CYII=" transform="matrix(1 0 0 1 79.5898 384.1953)">
 	</image>
 	<g>
-		<path fill="#FFFFFF" d="M165.185,703.664l-6.42-2.207l-28.02-3.615l-32.538-31.634l-4.519-35.251l13.558-18.076l21.692,1.808
+		<path class="ardt" fill="#FFFFFF" d="M165.185,703.664l-6.42-2.207l-28.02-3.615l-32.538-31.634l-4.519-35.251l13.558-18.076l21.692,1.808
 			l5.423-13.559l28.02-59.653l30.729-59.652l23.501-46.097l28.922-31.634l1.768-5.009l0.944-0.415l59.654,25.309l9.039,19.884
 			l13.558,37.059l8.135,16.27l-0.307,0.312l-24.097,4.207l-26.211,30.729l-42.481,47c0,0-55.156,85.174-80.787,124.139"/>
-		<path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="3.9745" d="M165.185,703.664l-6.42-2.207l-28.02-3.615
+		<path class="ardt" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="3.9745" d="M165.185,703.664l-6.42-2.207l-28.02-3.615
 			l-32.538-31.634l-4.519-35.251l13.558-18.076l21.692,1.808l5.423-13.559l28.02-59.653l30.729-59.652l23.501-46.097l28.922-31.634
 			l1.768-5.009l0.944-0.415l59.654,25.309l9.039,19.884l13.558,37.059l8.135,16.27l-0.307,0.312l-24.097,4.207l-26.211,30.729
 			l-42.481,47c0,0-55.156,85.174-80.787,124.139"/>
@@ -204,7 +204,7 @@ Q/DCIe7yewUuBEEQBEEQBEEQBEEQBEFsNv6/AAMA4TlnMnxTrA0AAAAASUVORK5CYII=" transform=
 </g>
 <g>
 	
-		<image overflow="visible" opacity="0.07" width="282" height="244" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARsAAAD1CAYAAABgFFFnAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+		<image class="ardt" overflow="visible" opacity="0.07" width="282" height="244" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARsAAAD1CAYAAABgFFFnAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
 GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAH7tJREFUeNrsnYty20qMREFSsuzk
 /v+X7k1iWyJ3b5W1QRC8hhy+G1UsyYqdKIp00t2YwRChUCgUCoVCoVAoFAqFQqFQKBTqlNXgJUCh
 8Pk0agBsUCjAZM7fa5gDPIANCrU+XJoKn81an+VBgctQAzqADQq1LGCaxP2twGZIAgiwQaE2Bhjr
@@ -351,17 +351,17 @@ qB0TPBnYECCDAmxQU8CT+bcYEgBCoTZbHV6CXUEeWxBQUDaoRf8NABkUCoVCoVAoFAqFQqFQKBQK
 hUKhUPuo/xVgANlw807vFn4fAAAAAElFTkSuQmCC" transform="matrix(1 0 0 1 206.5898 203.1953)">
 	</image>
 	<g>
-		<polygon fill="#FFFFFF" points="248.999,398.312 252.373,387.554 221.629,391.17 227.475,371.959 245.428,341.438 
+		<polygon class="ardt" fill="#FFFFFF" points="248.999,398.312 252.373,387.554 221.629,391.17 227.475,371.959 245.428,341.438 
 			289.551,297.316 335.558,267.547 377.06,242.286 426.539,219.794 463.536,218.222 448.777,322.858 456.914,344.56 
 			456.121,350.909 318.923,394.234 306.036,422.674 		"/>
-		<polygon fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="3.9745" points="248.999,398.312 252.373,387.554 
+		<polygon class="ardt" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="3.9745" points="248.999,398.312 252.373,387.554 
 			221.629,391.17 227.475,371.959 245.428,341.438 289.551,297.316 335.558,267.547 377.06,242.286 426.539,219.794 
 			463.536,218.222 448.777,322.858 456.914,344.56 456.121,350.909 318.923,394.234 306.036,422.674 		"/>
 	</g>
 </g>
 <g>
 	
-		<image overflow="visible" opacity="0.07" width="252" height="186" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAP0AAAC7CAYAAACuNJiNAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+		<image class="ardt" overflow="visible" opacity="0.07" width="252" height="186" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAP0AAAC7CAYAAACuNJiNAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
 GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAGGBJREFUeNrsnYty4rgShlsGkszu
 ef83PTuTBKyzUwVVOpq+SrKNzd9VqgAhgRB/+vsmiQgGg8FgMBgMBoPBYDDYHi3hI4DhmlzdMj5g
 GECGrTYp4J8BW/saSrgWRbDzGhMAoIeNvDaS4zFAz8OcmcfzEvADegA9Up3ToOe8IviZ+ZqXgB/Q
@@ -475,17 +475,17 @@ W3MWS2wkAYMB+sHqTwtADzWHAfodTQCtnx9icxig3/FnNQJ6gA4D9C/wuQFyGAwGg8FgMBgMBoPB
 YDBYyP4nwACAPt48qlaGJgAAAABJRU5ErkJggg==" transform="matrix(1 0 0 1 436.5898 195.1953)">
 	</image>
 	<g>
-		<polygon fill="#FFFFFF" points="476.897,341.547 458.593,349.635 458.949,344.29 450.829,322.634 465.565,218.154 
+		<polygon class="ardt" fill="#FFFFFF" points="476.897,341.547 458.593,349.635 458.949,344.29 450.829,322.634 465.565,218.154 
 			473.323,217.997 532.972,217.093 599.894,209.862 659.228,209.862 663.901,267.449 635.977,334.109 635.368,335.32 
 			603.36,336.211 565.272,342.558 515.833,356.939 		"/>
-		<polygon fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="3.9745" points="476.897,341.547 458.593,349.635 
+		<polygon class="ardt" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="3.9745" points="476.897,341.547 458.593,349.635 
 			458.949,344.29 450.829,322.634 465.565,218.154 473.323,217.997 532.972,217.093 599.894,209.862 659.228,209.862 
 			663.901,267.449 635.977,334.109 635.368,335.32 603.36,336.211 565.272,342.558 515.833,356.939 		"/>
 	</g>
 </g>
 <g id="path35852" inkscape:label="#path35852" sodipodi:nodetypes="ccccccccccccccccccccccc">
 	
-		<image overflow="visible" opacity="0.07" width="264" height="263" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQkAAAEICAYAAABMNAHBAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+		<image class="ardt" overflow="visible" opacity="0.07" width="264" height="263" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQkAAAEICAYAAABMNAHBAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
 GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAJgJJREFUeNrsnYmSo0qPhQXYVT3/
 vP+jztyuMiZnOsLEVau0ZYJtlqMIwrUvkHwcHWUqiRAIBAKBQCAQCAQCgUAgXh8dTsHbz1vB6UQA
 Evi/1g6ABYGb6Q1/d/fG310Wfh5QQQASxt/arfg/bRUSZcXvAUgQh4NE57zfJb5m7XPxzPNVNvZx
@@ -660,7 +660,7 @@ yHRKIoABAUjsW1XQEyABKCAAiQOpiuznqDFtABgQgMRBzlvreTx9QxMEIIFz2A4LBAKQOOk5BRAQ
 CAQCgUAgEAgEAoFAIBCIIP5PgAEAha4n30gC4HMAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 621.5898 192.1953)">
 	</image>
 	<g>
-		<polyline fill="#FFFFFF" points="635.091,335.399 638.705,335.399 663.108,342.63 663.108,351.668 671.244,392.341 
+		<polyline class="ardt" fill="#FFFFFF" points="635.091,335.399 638.705,335.399 663.108,342.63 663.108,351.668 671.244,392.341 
 			701.974,430.765 769.186,409.594 780.936,414.112 812.57,412.305 837.878,403.266 860.888,391.631 850.205,369.745 
 			825.801,366.13 805.013,348.053 802.302,321.842 801.399,287.495 791.456,255.86 776.994,231.457 750.783,210.669 
 			707.397,207.053 660.15,208.861 664.918,267.609 636.899,334.495 		"/>
@@ -672,7 +672,7 @@ CAQCgUAgEAgEAoFAIBCIIP5PgAEAha4n30gC4HMAAAAASUVORK5CYII=" transform="matrix(1 0 
 </g>
 <g>
 	
-		<image overflow="visible" opacity="0.07" width="218" height="257" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANsAAAECCAYAAAB3xaITAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+		<image class="ardt" overflow="visible" opacity="0.07" width="218" height="257" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANsAAAECCAYAAAB3xaITAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
 GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAHrxJREFUeNrsnYuS4roOReVgmHPu
 ///r6eaVW1NFajxqvey8HNiuSsEA3T2ELPaWZMtEGBgYGBgYGBgYGBgYGBgYGBgYGBhbjIRTgHHg
 a3YEbBgY+12fI2DDwGi7JlMjZCNgw8CIA5aC1+mo3HYFHWDD6OX6K8GaA9vYK3SADaMHyDhoKahw
@@ -815,10 +815,10 @@ BHONDTlmQwbYMD5dLVuhA2wYGDOv9xGnBwMDAwMDAwMDo8PxfwEGAH7XKYSbC2RAAAAAAElFTkSu
 QmCC" transform="matrix(1 0 0 1 689.5898 378.1953)">
 	</image>
 	<g>
-		<polygon fill="#FFFFFF" points="800.014,603.012 800.014,594.783 796.352,576.478 782.669,549.109 766.991,532.51 
+		<polygon class="ardt" fill="#FFFFFF" points="800.014,603.012 800.014,594.783 796.352,576.478 782.669,549.109 766.991,532.51 
 			759.139,530.767 750.22,499.55 704.45,431.767 769.159,410.654 780.779,415.124 812.772,413.296 838.267,404.189 860.324,393.403 
 			870.015,440.447 875.423,490.065 880.848,534.367 882.647,583.091 882.038,610.905 		"/>
-		<polygon fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="3.9745" points="800.014,603.012 800.014,594.783 
+		<polygon class="ardt" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="3.9745" points="800.014,603.012 800.014,594.783 
 			796.352,576.478 782.669,549.109 766.991,532.51 759.139,530.767 750.22,499.55 704.45,431.767 769.159,410.654 780.779,415.124 
 			812.772,413.296 838.267,404.189 860.324,393.403 870.015,440.447 875.423,490.065 880.848,534.367 882.647,583.091 
 			882.038,610.905 		"/>
@@ -826,7 +826,7 @@ QmCC" transform="matrix(1 0 0 1 689.5898 378.1953)">
 </g>
 <g>
 	
-		<image overflow="visible" opacity="0.07" width="283" height="230" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARwAAADnCAYAAADM1umOAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+		<image class="ardt" overflow="visible" opacity="0.07" width="283" height="230" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARwAAADnCAYAAADM1umOAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
 GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAIUxJREFUeNrsnYlu41ivhClZTmbm
 vv+b3kniRdKPABGGzXA7WqytCAh21k7S9ucqkoe8EAKBQLwoLvgTIBAIAAeBQAA4CAQCAeAgEAgA
 B4FAII4EnMq4EAgEgDM7YKZ+HgKBAHBMgHjKpnZgA/ggEABOEWg4WPhtZbzNv44AHwQCwCkBzQCV
@@ -980,10 +980,10 @@ IFLQIUOpaG8DNAgABzEreMa+DdAAOAjEKPBQEkgADQLAQSwOH0AGAeAgEAgAB4FAADgIBAIB4CAQ
 CAAHgUAg7PifAAMAMl+HWLT7GjAAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 623.5898 553.1953)">
 	</image>
 	<g>
-		<polygon fill="#FFFFFF" points="733.479,723.418 638.111,617.483 639.51,608.756 653.835,613.231 667.346,568.192 690.812,579.49 
+		<polygon class="ardt" fill="#FFFFFF" points="733.479,723.418 638.111,617.483 639.51,608.756 653.835,613.231 667.346,568.192 690.812,579.49 
 			797.501,600.127 798.127,604.839 881.265,612.841 880.933,613.343 872.713,638.001 871.81,656.078 858.601,695.703 
 			834.653,688.607 800.859,713.017 812.539,727.393 781.01,745.785 762.299,758.538 		"/>
-		<polygon fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="3.9745" points="733.479,723.418 638.111,617.483 
+		<polygon class="ardt" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="3.9745" points="733.479,723.418 638.111,617.483 
 			639.51,608.756 653.835,613.231 667.346,568.192 690.812,579.49 797.501,600.127 798.127,604.839 881.265,612.841 
 			880.933,613.343 872.713,638.001 871.81,656.078 858.601,695.703 834.653,688.607 800.859,713.017 812.539,727.393 
 			781.01,745.785 762.299,758.538 		"/>
@@ -991,7 +991,7 @@ CAAHgUAg7PifAAMAMl+HWLT7GjAAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 623.5898
 </g>
 <g>
 	
-		<image overflow="visible" opacity="0.07" width="274" height="250" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAAD7CAYAAABJyXDjAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+		<image class="ardt" overflow="visible" opacity="0.07" width="274" height="250" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAAD7CAYAAABJyXDjAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
 GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAIudJREFUeNrsnYly40quRFEU5aX7
 /f+fTl9rI9/cCCumGsZaJCWKTEQwJC/t9sI6SiRQKCIEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFA
 bDwKfgWIGe6NEb8uBGCCiNwTJQgQQAU3DgL3gfh25P4YFZAALIAJYqf3gPcYAcnoAAax4ejxK8AL
@@ -1152,11 +1152,11 @@ ZTV9ef5ApEsUEEEgNgITMhRH5HkUJpmPIRCIF4aJ9D2Uxu+xtSsUgUDMEIcNwQ1t3gjEzpXJ3N8b
 wIFAIBAIBAKBQCAQCAQCgUAgVhH/L8AAvd35NGxRxyMAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 511.5898 614.1953)">
 	</image>
 	<g>
-		<path fill="#FFFFFF" d="M545.713,831.578l-3.634-23.62l-9.033-35.244l-0.903-20.771l-6.307-28.835l1.774-13.31l9.227-31.847
+		<path class="ardt" fill="#FFFFFF" d="M545.713,831.578l-3.634-23.62l-9.033-35.244l-0.903-20.771l-6.307-28.835l1.774-13.31l9.227-31.847
 			l20.316,5.505l23.879,3.674l40.29-21.062l24.245-36.872l86.396,95.527l28.645,34.908l-18.487,11.475l-44.29,24.403L653.7,826.131
 			c-14.428,1.88-42.028,5.382-44.821,5.382c-2.856,0-20.354-4.542-26.854-6.292l-0.414-0.111l-20.966,12.762L545,839.579
 			L545.713,831.578z"/>
-		<path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="3.9745" d="M545.713,831.578l-3.634-23.62l-9.033-35.244
+		<path class="ardt" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="3.9745" d="M545.713,831.578l-3.634-23.62l-9.033-35.244
 			l-0.903-20.771l-6.307-28.835l1.774-13.31l9.227-31.847l20.316,5.505l23.879,3.674l40.29-21.062l24.245-36.872l86.396,95.527
 			l28.645,34.908l-18.487,11.475l-44.29,24.403L653.7,826.131c-14.428,1.88-42.028,5.382-44.821,5.382
 			c-2.856,0-20.354-4.542-26.854-6.292l-0.414-0.111l-20.966,12.762L545,839.579L545.713,831.578z"/>
@@ -1164,7 +1164,7 @@ wIFAIBAIBAKBQCAQCAQCgUAgVhH/L8AAvd35NGxRxyMAAAAASUVORK5CYII=" transform="matrix(
 </g>
 <g>
 	
-		<image overflow="visible" opacity="0.07" width="245" height="244" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPYAAAD1CAYAAABjhghmAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+		<image class="ardt" overflow="visible" opacity="0.07" width="245" height="244" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPYAAAD1CAYAAABjhghmAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
 GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAIVpJREFUeNrsnYly28rOrcFB8pC8
 /6PevW1J7P+myqyDjWBqTqLIhSqWZNlOLIofF4BGA0QwGAwGg8FgMBgMBoPBYDAYDAaDncUanAJc
 A8prBacFYMPO8ZkDdoAN2/nn3MwAGoADbNiOPl/teZOEugBygA3b12erPc4BW4McgANs2BNUulEO
@@ -1318,10 +1318,10 @@ uwAbBjc9oejeTSEDdhbGuV8DbBisAvK1wI7gLJWvA2wYrBLyKRyUDX9msmHED+zMkE+xstLP7u6N
 wmBnBb3gFMJgMBgMBoPBYDAYDHZs+z8BBgBskG1/loQ1BAAAAABJRU5ErkJggg==" transform="matrix(1 0 0 1 323.5898 624.1953)">
 	</image>
 	<g>
-		<polygon fill="#FFFFFF" points="472.853,826.197 450.202,812.605 382.284,793.59 338.94,780.375 346.622,769.897 358.354,758.166 
+		<polygon class="ardt" fill="#FFFFFF" points="472.853,826.197 450.202,812.605 382.284,793.59 338.94,780.375 346.622,769.897 358.354,758.166 
 			390.021,719.261 425.162,668.808 438.853,662.418 447.197,639.145 505.472,668.949 534.91,677.414 525.647,709.386 
 			523.807,723.19 530.153,752.202 531.058,773.009 540.122,808.357 543.699,831.643 542.972,839.806 513.219,843.24 		"/>
-		<polygon fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="3.9745" points="472.853,826.197 450.202,812.605 
+		<polygon class="ardt" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="3.9745" points="472.853,826.197 450.202,812.605 
 			382.284,793.59 338.94,780.375 346.622,769.897 358.354,758.166 390.021,719.261 425.162,668.808 438.853,662.418 
 			447.197,639.145 505.472,668.949 534.91,677.414 525.647,709.386 523.807,723.19 530.153,752.202 531.058,773.009 
 			540.122,808.357 543.699,831.643 542.972,839.806 513.219,843.24 		"/>
@@ -1329,7 +1329,7 @@ wmBnBb3gFMJgMBgMBoPBYDAYDHZs+z8BBgBskG1/loQ1BAAAAABJRU5ErkJggg==" transform="mat
 </g>
 <g>
 	
-		<image overflow="visible" opacity="0.07" width="318" height="285" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAT8AAAEeCAYAAAD8VhI4AAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+		<image class="ardt" overflow="visible" opacity="0.07" width="318" height="285" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAT8AAAEeCAYAAAD8VhI4AAAACXBIWXMAAAsSAAALEgHS3X78AAAA
 GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAJwVJREFUeNrsnYlym1qzhRuEnNh/
 3v9Jk1gTcG+qRJ12u6cNSGJYq4qS48RDZPxp9biJIAiCIAiCIAiCIAiCIAiCIAiCIAiCoPWpwlMA
 zXSf9HiaIMAP2vO9AQhCgB+0+vuhStwrvQM+gBAC/KDV3AsSeB4ANfD1CShCEOAHLeoeqAQES+HX
@@ -1509,10 +1509,10 @@ X/ZtCPCDoFWAsER98GcI8IOgTd/PgB5uFgjaxT0O2EEQBEEQBEEQBEEQBEEQBG1A/yfAAE7r/EWS
 +pzkAAAAAElFTkSuQmCC" transform="matrix(1 0 0 1 151.5898 519.1953)">
 	</image>
 	<g>
-		<path fill="#FFFFFF" d="M318.241,773.746l-55.047-30.682l-38.748-20.276l-18.411-18.87l-18.362,6.427l-21.364-6.835
+		<path class="ardt" fill="#FFFFFF" d="M318.241,773.746l-55.047-30.682l-38.748-20.276l-18.411-18.87l-18.362,6.427l-21.364-6.835
 			c24.941-38.188,78.226-120.684,80.021-123.463l41.267-46.147l84.375,85.729l7.371-5.527l17.69,11.498l8.684,0.963l9.733-5.308
 			l29.525,16.499l-7.736,23.211l-13.412,6.26l-35.404,50.835l-31.557,38.767l-11.768,11.768l-8.18,11.156L318.241,773.746z"/>
-		<path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="3.9745" d="M318.241,773.746l-55.047-30.682
+		<path class="ardt" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="3.9745" d="M318.241,773.746l-55.047-30.682
 			l-38.748-20.276l-18.411-18.87l-18.362,6.427l-21.364-6.835c24.941-38.188,78.226-120.684,80.021-123.463l41.267-46.147
 			l84.375,85.729l7.371-5.527l17.69,11.498l8.684,0.963l9.733-5.308l29.525,16.499l-7.736,23.211l-13.412,6.26l-35.404,50.835
 			l-31.557,38.767l-11.768,11.768l-8.18,11.156L318.241,773.746z"/>
@@ -1520,7 +1520,7 @@ X/ZtCPCDoFWAsER98GcI8IOgTd/PgB5uFgjaxT0O2EEQBEEQBEEQBEEQBEEQBG1A/yfAAE7r/EWS
 </g>
 <g>
 	
-		<image overflow="visible" opacity="0.07" width="241" height="170" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPIAAACrCAYAAABc6cGbAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+		<image class="ardt" overflow="visible" opacity="0.07" width="241" height="170" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPIAAACrCAYAAABc6cGbAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
 GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAFw1JREFUeNrsnQ1v4koPhT1JaLu9
 +/7/P3rvtgRIXq3USFPXX5MPmIRjKYLSbZdCHs6xx+MQIRAIBAKBQCAQCAQCgfgbCS8B3pNAjHhb
 cNIgjv96A3ScWE/5uqYdvh9jAcAAGyAf6jVMxtdp5yCPgfuAGiAfEtgU/Jk9wCzd124BNUA+DLAl
@@ -1628,17 +1628,17 @@ C4ABMmJloDUFngOyBywABsiIDd/nNPM8GAOPAd4HRIuXAB/eBTEWPo6AIiMqfv8BLgKBQCAQCAQC
 gUAgEIgq4/8CDACk+LNhk9FRhgAAAABJRU5ErkJggg==" transform="matrix(1 0 0 1 273.5898 479.1953)">
 	</image>
 	<g>
-		<polygon fill="#FFFFFF" points="397.726,623.663 379.262,611.661 372.167,616.981 288.372,532.944 313.638,503.743 
+		<polygon class="ardt" fill="#FFFFFF" points="397.726,623.663 379.262,611.661 372.167,616.981 288.372,532.944 313.638,503.743 
 			370.146,493.876 407.843,493.876 454.676,510.987 490.039,525.541 480.508,553.756 473.301,569.068 465.297,584.187 
 			415.41,620.141 405.36,624.51 		"/>
-		<polygon fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="3.9745" points="397.726,623.663 379.262,611.661 
+		<polygon class="ardt" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="3.9745" points="397.726,623.663 379.262,611.661 
 			372.167,616.981 288.372,532.944 313.638,503.743 370.146,493.876 407.843,493.876 454.676,510.987 490.039,525.541 
 			480.508,553.756 473.301,569.068 465.297,584.187 415.41,620.141 405.36,624.51 		"/>
 	</g>
 </g>
 <g>
 	
-		<image overflow="visible" opacity="0.07" width="194" height="186" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMMAAAC7CAYAAADYDioGAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+		<image class="ardt" overflow="visible" opacity="0.07" width="194" height="186" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMMAAAC7CAYAAADYDioGAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
 GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAFURJREFUeNrsnYuO2zoOhinZzkzP
 nvd/093O5GItBogBleVNtmzLNgkITtK0TWJ9+kmKkgDc3Nzc3Nzc3Nzc3Nzc3NxUC/4TuB2gLyaH
 wc0H4Q3hcBjc9gQgGN6TBAiSw+B2VAAC8XoQ3k+BkAyQOAxuzQNQC4a0BhQOg9tanZ8CIDAKQQGB
@@ -1738,17 +1738,17 @@ qx57FWaCYoHhMBCcBYaS7+TnvC2HY4kb2vzv3/n9d6s4ULa4Rf+llcGtjb7iSuzm5ubm5ubm5ubm
 5ubmdkb7vwADAGdGTLjbbXXBAAAAAElFTkSuQmCC" transform="matrix(1 0 0 1 293.5898 338.1953)">
 	</image>
 	<g>
-		<polygon fill="#FFFFFF" points="409.55,490.765 371.339,490.765 339.303,496.231 331.673,480.526 318.11,443.456 307.91,423.945 
+		<polygon class="ardt" fill="#FFFFFF" points="409.55,490.765 371.339,490.765 339.303,496.231 331.673,480.526 318.11,443.456 307.91,423.945 
 			320.632,395.873 457.212,352.577 458.095,415.736 453.509,435.916 463.073,450.697 452.949,455.76 443.713,472.385 
 			435.01,499.368 		"/>
-		<polygon fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="3.9745" points="409.55,490.765 371.339,490.765 
+		<polygon class="ardt" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="3.9745" points="409.55,490.765 371.339,490.765 
 			339.303,496.231 331.673,480.526 318.11,443.456 307.91,423.945 320.632,395.873 457.212,352.577 458.095,415.736 
 			453.509,435.916 463.073,450.697 452.949,455.76 443.713,472.385 435.01,499.368 		"/>
 	</g>
 </g>
 <g>
 	
-		<image overflow="visible" opacity="0.07" width="152" height="146" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJkAAACTCAYAAACdx7vcAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+		<image class="ardt" overflow="visible" opacity="0.07" width="152" height="146" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJkAAACTCAYAAACdx7vcAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
 GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAEEtJREFUeNrsnYtuq7oShm3jNGnX
 +z/q2bsJF+9VKUijOXOzMSRpZiQLkq7Vgvn8z8UGQnBzc3Nzc3Nzc3Nz+/UWX/y4il9Ch6zXcUQD
 VA5cv2tdfgtkUfgcKzuiOHTNA3f3wRufBCxua4GsGKArbwpVrLzeu/RhfEAHQJCskEXhpK3b3whb
@@ -1826,16 +1826,16 @@ IIfqDSALRreoucrdg1G314esNb3e+4UMbr8Qsi1/y4Fyc3Nzc3Nzc3Nz62T/CTAA8A16N/OySIgA
 AAAASUVORK5CYII=" transform="matrix(1 0 0 1 440.5898 329.1953)">
 	</image>
 	<g>
-		<polygon fill="#FFFFFF" points="455.385,435.563 459.842,415.951 459.393,351.417 476.938,343.714 515.734,359.052 
+		<polygon class="ardt" fill="#FFFFFF" points="455.385,435.563 459.842,415.951 459.393,351.417 476.938,343.714 515.734,359.052 
 			565.677,344.522 566.323,344.472 568.534,444.882 524.802,435.604 464.297,450.842 		"/>
-		<polygon fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="3.9745" points="455.385,435.563 459.842,415.951 
+		<polygon class="ardt" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="3.9745" points="455.385,435.563 459.842,415.951 
 			459.393,351.417 476.938,343.714 515.734,359.052 565.677,344.522 566.323,344.472 568.534,444.882 524.802,435.604 
 			464.297,450.842 		"/>
 	</g>
 </g>
 <g>
 	
-		<image overflow="visible" opacity="0.07" width="172" height="168" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAK0AAACpCAYAAABZPr1VAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+		<image class="ardt" overflow="visible" opacity="0.07" width="172" height="168" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAK0AAACpCAYAAABZPr1VAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
 GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAEhNJREFUeNrsnYuSGykMRQWNZya7
 //+rm/GrezdVpsIqekE/aYsqqm3P2HHwmesrIQDAmzdv3rx58+bNmzdv3rxt2oIPwa7jNvlQOrR7
 /j/DQqA6yG8AbdjwdcLMn0+V9x3izqFtBSZ0Au0kPOYAHxzaUPGzYHjuFtDWjqMEq3Z9e4BDh3CG
@@ -1921,16 +1921,16 @@ tKupcC20GpwOq0O7iQrXNgfVoe1ynBxUh/bwY+eQevPmzZs3b968efPmjWz/CjAAyHY0QhPZ3egA
 AAAASUVORK5CYII=" transform="matrix(1 0 0 1 552.5898 321.1953)">
 	</image>
 	<g>
-		<polygon fill="#FFFFFF" points="570.091,445.828 567.417,344.228 603.553,338.206 636.993,337.275 636.993,336.129 
+		<polygon class="ardt" fill="#FFFFFF" points="570.091,445.828 567.417,344.228 603.553,338.206 636.993,337.275 636.993,336.129 
 			638.479,336.377 662.109,343.377 662.109,351.768 670.311,392.771 699.528,429.958 630.484,464.48 		"/>
-		<polygon fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="3.9745" points="570.091,445.828 567.417,344.228 
+		<polygon class="ardt" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="3.9745" points="570.091,445.828 567.417,344.228 
 			603.553,338.206 636.993,337.275 636.993,336.129 638.479,336.377 662.109,343.377 662.109,351.768 670.311,392.771 
 			699.528,429.958 630.484,464.48 		"/>
 	</g>
 </g>
 <g>
 	
-		<image overflow="visible" opacity="0.07" width="206" height="208" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAM8AAADRCAYAAABrXea0AAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+		<image class="ardt" overflow="visible" opacity="0.07" width="206" height="208" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAM8AAADRCAYAAABrXea0AAAACXBIWXMAAAsSAAALEgHS3X78AAAA
 GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAGYZJREFUeNrsnQtv40gOhNmS7ORu
 //9vvd3Etg4LxEAPwyqy9bD1YANCPDOZl+TPVWQ3SZFcuXLlypUrV65cuXLlypUrV65cuXIts0re
 grfc0zFvU8KTi9/DEgAmQUp4Tn3fSsN9HQk4CVLCc4r7VcDXKDzoa0KU8JwCmuJA5MGDXidACc/h
@@ -2049,17 +2049,17 @@ wsfRswFeadtyHVqd5sDj/ZokPLnOAlQEHk9dxqX+sbly7REob80GJuHJdVSgpkKU8ORKqNYCJVeu
 XLly5cqVK1euXLnOtv4vwAD6p8bQ5JMs4gAAAABJRU5ErkJggg==" transform="matrix(1 0 0 1 616.5898 417.1953)">
 	</image>
 	<g>
-		<polygon fill="#FFFFFF" points="691.447,577.579 666.923,566.337 658.651,543.912 649.614,500.531 640.479,474.96 631.79,465.855 
+		<polygon class="ardt" fill="#FFFFFF" points="691.447,577.579 666.923,566.337 658.651,543.912 649.614,500.531 640.479,474.96 631.79,465.855 
 			701.635,432.041 748.385,500.408 757.543,532.46 765.958,534.33 781.013,550.269 794.444,577.132 798.005,594.936 
 			797.505,600.405 		"/>
-		<polygon fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="3.9745" points="691.447,577.579 666.923,566.337 
+		<polygon class="ardt" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="3.9745" points="691.447,577.579 666.923,566.337 
 			658.651,543.912 649.614,500.531 640.479,474.96 631.79,465.855 701.635,432.041 748.385,500.408 757.543,532.46 765.958,534.33 
 			781.013,550.269 794.444,577.132 798.005,594.936 797.505,600.405 		"/>
 	</g>
 </g>
 <g>
 	
-		<image overflow="visible" opacity="0.07" width="177" height="159" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALIAAACgCAYAAAColDb4AAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+		<image class="ardt" overflow="visible" opacity="0.07" width="177" height="159" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALIAAACgCAYAAAColDb4AAAACXBIWXMAAAsSAAALEgHS3X78AAAA
 GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAE9dJREFUeNrsnYty4zgORUGJSrp3
 //9PZ5PY1mN3qqxaDBovUm8brFLZ6aQTyz6+vryASIAYMWLEiBEjRowYMWLEiBEjRowzjvTm5zYF
 AgHyK55PgB0gn+Y8kvMcp8KvYwTIuwIs3WogT8JtAB0gHwJwWgDyJNwPoAPkTR8zB3Bi/l06Twqu
@@ -2153,16 +2153,16 @@ UpAtYAPgAHnz52it5zDgDZBf5rkLeAPkSz63AW6MGDFixIgRI8b5xn8FGABu2EoWzqvM5QAAAABJ
 RU5ErkJggg==" transform="matrix(1 0 0 1 492.5898 550.1953)">
 	</image>
 	<g>
-		<polygon fill="#FFFFFF" points="557.573,681.497 535.997,675.439 507.153,668.217 543.925,564.987 573.366,578.609 
+		<polygon class="ardt" fill="#FFFFFF" points="557.573,681.497 535.997,675.439 507.153,668.217 543.925,564.987 573.366,578.609 
 			583.246,579.509 602.027,591.135 623.594,604.615 644.429,627.93 619.94,664.535 580.688,685.054 		"/>
-		<polygon fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="3.9745" points="557.573,681.497 535.997,675.439 
+		<polygon class="ardt" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="3.9745" points="557.573,681.497 535.997,675.439 
 			507.153,668.217 543.925,564.987 573.366,578.609 583.246,579.509 602.027,591.135 623.594,604.615 644.429,627.93 
 			619.94,664.535 580.688,685.054 		"/>
 	</g>
 </g>
 <g>
 	
-		<image overflow="visible" opacity="0.07" width="164" height="181" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKUAAAC2CAYAAAC4aU3vAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+		<image class="ardt" overflow="visible" opacity="0.07" width="164" height="181" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKUAAAC2CAYAAAC4aU3vAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
 GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAFBxJREFUeNrsnYty47iuRaGHHSd9
 //9PJ05iSTzTVVZdDoIXKdoiZbCKZWc6PWnbKxvcAEgC+PDhw4cPHz58+PDhw4cPHz4eOzp/C6p5
 /4O/HQ5lK+918DfKx6Pf4y4TxuBQ+ij53nbMowZkeEVAHcrnwdhthJICNDiUPqzvJwVjZ1DMoEBJ
@@ -2257,16 +2257,16 @@ OKnPw3I3UeqBrQ6lj6T3f+tlUE3D6FAe77MI/kb4qOGzCf42+fDhw4cPHz58+PDhw0cD438CDABq
 bpc92ASL5gAAAABJRU5ErkJggg==" transform="matrix(1 0 0 1 402.5898 511.1953)">
 	</image>
 	<g>
-		<polygon fill="#FFFFFF" points="447.104,636.852 417.782,620.896 466.846,585.536 475.09,569.963 482.365,554.509 
+		<polygon class="ardt" fill="#FFFFFF" points="447.104,636.852 417.782,620.896 466.846,585.536 475.09,569.963 482.365,554.509 
 			492.131,526.469 506.898,533.494 528.493,551.49 541.64,564.442 505.283,667.495 		"/>
-		<polygon fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="3.9745" points="447.104,636.852 417.782,620.896 
+		<polygon class="ardt" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="3.9745" points="447.104,636.852 417.782,620.896 
 			466.846,585.536 475.09,569.963 482.365,554.509 492.131,526.469 506.898,533.494 528.493,551.49 541.64,564.442 505.283,667.495 
 					"/>
 	</g>
 </g>
 <g>
 	
-		<image overflow="visible" opacity="0.07" width="177" height="147" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALIAAACUCAYAAAA3f3NDAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+		<image class="ardt" overflow="visible" opacity="0.07" width="177" height="147" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALIAAACUCAYAAAA3f3NDAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
 GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAEzpJREFUeNrsnY1u27wOhinbybp+
 u/87bbsmtnXOgATgOP5Jlh07oQAhSdutqfPkzUuKogBixIgRI0aMGDFixIgRI8bTjXTw55vjJYyx
 d5Brn1vAHSDv7vloj7MD4oA6QH44vIn5fnJAm5nvB9AB8ia/n7utATkL9wPoAHn135vIBOW+5ok5
@@ -2357,16 +2357,16 @@ qG8+wjs5xvOps+cxKEq7axUOkF8X6lKQdw9wgBxAQyHQMWLEiBEjRowYMWLEiBEjRowYMYrH/wQY
 AH/vOOD4odKbAAAAAElFTkSuQmCC" transform="matrix(1 0 0 1 421.5898 439.1953)">
 	</image>
 	<g>
-		<polygon fill="#FFFFFF" points="530.917,548.87 509.082,530.673 456.525,508.021 436.447,499.992 445.3,473.188 454.121,457.309 
+		<polygon class="ardt" fill="#FFFFFF" points="530.917,548.87 509.082,530.673 456.525,508.021 436.447,499.992 445.3,473.188 454.121,457.309 
 			463.115,453.629 479.994,470.954 556.382,494.598 574.068,491.777 570.868,501.856 554.653,545.545 544.507,561.187 		"/>
-		<polygon fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="3.9745" points="530.917,548.87 509.082,530.673 
+		<polygon class="ardt" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="3.9745" points="530.917,548.87 509.082,530.673 
 			456.525,508.021 436.447,499.992 445.3,473.188 454.121,457.309 463.115,453.629 479.994,470.954 556.382,494.598 
 			574.068,491.777 570.868,501.856 554.653,545.545 544.507,561.187 		"/>
 	</g>
 </g>
 <g>
 	
-		<image overflow="visible" opacity="0.07" width="162" height="94" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKMAAABfCAYAAACEPHfiAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+		<image class="ardt" overflow="visible" opacity="0.07" width="162" height="94" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKMAAABfCAYAAACEPHfiAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
 GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAADRRJREFUeNrsnYlu2zgQhoc6mvb9
 n3W7OSRxUSAC2Nn55yApO3ZIQJB8Jbb06Z+DQ5JotNFGG2200UYbbbTRRhvtQVoap+Bm5yiPUzlg
 7HU+0gUADkAHjObvT47jKIzZAWEeF+N7/14JtithHIB+Uxij8KVOUGoQegH9dnCmAR/co2PrvGXH
@@ -2429,15 +2429,15 @@ AeP38zMRdNFrloOQSuDle5yc0e4HpqWavWH8EgAOGB9TNVuuWQ48n+91AubBwMOoZkvLla8NZRzt
 suuUx6kcbbTRRhtttNFGG+2R238CDADWO1enWoBYMwAAAABJRU5ErkJggg==" transform="matrix(1 0 0 1 449.5898 423.1953)">
 	</image>
 	<g>
-		<polygon fill="#FFFFFF" points="481.065,469.191 465.005,453.112 524.837,437.658 569.341,447.713 586.925,453.345 
+		<polygon class="ardt" fill="#FFFFFF" points="481.065,469.191 465.005,453.112 524.837,437.658 569.341,447.713 586.925,453.345 
 			574.755,489.643 556.529,492.549 		"/>
-		<polygon fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="3.9745" points="481.065,469.191 465.005,453.112 
+		<polygon class="ardt" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="3.9745" points="481.065,469.191 465.005,453.112 
 			524.837,437.658 569.341,447.713 586.925,453.345 574.755,489.643 556.529,492.549 		"/>
 	</g>
 </g>
 <g>
 	
-		<image overflow="visible" opacity="0.07" width="125" height="136" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAH4AAACJCAYAAADqtIwpAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+		<image class="ardt" overflow="visible" opacity="0.07" width="125" height="136" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAH4AAACJCAYAAADqtIwpAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
 GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAADlRJREFUeNrsXYuS4yoOFTbJ9Nz9
 /3+dJAa2blVcq9XoBX4nUEU56a50xz46R0IIAOitt95666233nrrrbfert3CRb9D6dBdE/iw4LuU
 bgjXAz4Yr0MF6KUbwjWAD8p1KfBFAb0bwUHAU2YHBvRgKILG9CL8rBvBgcBL7Na69L0kwC3guxHs
@@ -2506,15 +2506,15 @@ QQcF4KZJmrHjcagBQAVoxWEE0IG/thF4DaPs8Y97O4cBLAK8t95666233nrrrbfeeuutt0u3/wow
 AFwGHucCa76DAAAAAElFTkSuQmCC" transform="matrix(1 0 0 1 558.5898 439.1953)">
 	</image>
 	<g>
-		<polygon fill="#FFFFFF" points="601.2,512.562 573.076,501.577 576.531,491.435 588.84,453.943 629.576,466.435 638.74,476.033 
+		<polygon class="ardt" fill="#FFFFFF" points="601.2,512.562 573.076,501.577 576.531,491.435 588.84,453.943 629.576,466.435 638.74,476.033 
 			647.684,501.074 656.708,544.393 658.083,549.076 		"/>
-		<polygon fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="3.9745" points="601.2,512.562 573.076,501.577 
+		<polygon class="ardt" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="3.9745" points="601.2,512.562 573.076,501.577 
 			576.531,491.435 588.84,453.943 629.576,466.435 638.74,476.033 647.684,501.074 656.708,544.393 658.083,549.076 		"/>
 	</g>
 </g>
 <g>
 	
-		<image overflow="visible" opacity="0.07" width="158" height="153" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJ8AAACaCAYAAAC31ppTAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+		<image class="ardt" overflow="visible" opacity="0.07" width="158" height="153" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJ8AAACaCAYAAAC31ppTAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
 GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAEvpJREFUeNrsnYty27oORUFJTtLT
 +/+f2vghiWfOjDUXQTcelCVblqgZjp02bRx5eQPYBEmietWrXvWqV73qVa961ate9apXvfZ2pZ2+
 3lzf2grf2q8xBYGrMFb4Zr+2VPi6swFeBbHCVwSd9ujBpz1WECt8IejSwvDlgDrW60DwWeA1BowW
@@ -2604,16 +2604,16 @@ OwCA5EBHhlVDAfjmfF3h2zGAHoRz4dNA8s5AoQrfsVWQjD8jJ0xGQ2feyievXttTwZL3aBOhtORq
 RQwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 531.5898 488.1953)">
 	</image>
 	<g>
-		<polygon fill="#FFFFFF" points="624.89,603.065 603.083,589.437 583.897,577.56 573.914,576.65 546.147,562.334 556.452,546.445 
+		<polygon class="ardt" fill="#FFFFFF" points="624.89,603.065 603.083,589.437 583.897,577.56 573.914,576.65 546.147,562.334 556.452,546.445 
 			572.404,503.022 600.282,514.35 658.989,552.033 665.073,567.127 652.491,610.717 637.911,606.161 636.318,615.521 		"/>
-		<polygon fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="3.9745" points="624.89,603.065 603.083,589.437 
+		<polygon class="ardt" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="3.9745" points="624.89,603.065 603.083,589.437 
 			583.897,577.56 573.914,576.65 546.147,562.334 556.452,546.445 572.404,503.022 600.282,514.35 658.989,552.033 665.073,567.127 
 			652.491,610.717 637.911,606.161 636.318,615.521 		"/>
 	</g>
 </g>
 <g>
 	
-		<image overflow="visible" opacity="0" width="650" height="321" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAosAAAFCCAYAAACZ5Zf2AAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+		<image class="ardt" overflow="visible" opacity="0" width="650" height="321" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAosAAAFCCAYAAACZ5Zf2AAAACXBIWXMAAAsSAAALEgHS3X78AAAA
 GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAQypJREFUeNrsnYly40quKEF56T7z
 ///ap9u2eGNePMZUw1iLlK0lM4KhxZKslUoBBUAEAAAAAAAAAAAAAAAAAADgMBaeAgA+xwMrTycA
 ACCLAHwejwTBBADgywkAruQz912f2fWLrgMAAMgiAJ+txmWXL/wsrzsvtx50+wAAgCwCPOTnaCmc
@@ -2919,7 +2919,7 @@ ADcqjR1XW5PT06KILAIAAABcnzTOeNraPB9ZBAAAALgTaeyyXuOdAgAAAIDvkceVpwoAAAAAAAAA
 AAAAAAAAAAAAAAAAbp3/E2AAThTjpbpTJkEAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 145.5898 471.1953)">
 	</image>
 	<g>
-		<path fill="#A2E8FF" d="M761.024,763.574c-1.647,0-3.282-0.702-4.425-2.062l-28.247-33.67l-95.439-105.78
+		<path class="river" fill="#A2E8FF" d="M761.024,763.574c-1.647,0-3.282-0.702-4.425-2.062l-28.247-33.67l-95.439-105.78
 			c-0.028-0.032-0.059-0.063-0.086-0.097c-0.028-0.033-0.06-0.064-0.089-0.097l-11.372-12.604c-1.128-0.413-2.104-1.17-2.783-2.157
 			l-19.088-11.931l-17.802-11.021l-8.587-0.779c-0.692-0.062-1.368-0.25-1.995-0.556l-29.703-14.4
 			c-0.333-0.152-0.654-0.338-0.96-0.558c-0.298-0.213-0.572-0.449-0.819-0.71l-13.277-13.276L505.501,536.5l-51.505-22.199
