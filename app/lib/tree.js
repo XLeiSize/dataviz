@@ -16,7 +16,10 @@ class Tree extends Sprite {
         this.interactive = true;
         this.alpha = 1;
         // this.mouseover = function(mouseData){
-        //    console.log("MOUSE OVER!");
+        //    this.tint = 0xCDCDCD;
+        // }
+        // this.mouseout = function(mouseData){
+        //    this.tint = 0xFFFFFF;
         // }
         this.click = function(mouseData){
             $('#parc_infos').css({opacity:0});
@@ -26,8 +29,8 @@ class Tree extends Sprite {
                 $('#parc_infos').html( 
                     '<b>'+options.content.name + 
                     '</b><br>' + 
-                    Math.round(options.content.surface /1000) +
-                    "km<SUP>2</SUP>");
+                    Math.round(options.content.surface) +
+                    " m<SUP>2</SUP>");
                 $('#parc_infos').css({opacity:1});
             }, 500);
 

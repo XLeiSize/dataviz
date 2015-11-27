@@ -16,7 +16,7 @@ class App {
   constructor() {
 
     // HOME PAGE ANIMATION
-    $('#arrow').click(function(e){
+    $('#overlayer').click(function(e){
       e.preventDefault();
       $('#overlayer').css({
        transform: 'translateY(-101%) ',
@@ -197,7 +197,6 @@ class App {
   update() {
     this.DELTA_TIME = Date.now() - this.LAST_TIME;
       this.LAST_TIME = Date.now();
-    // emitter.on('pushEnd', function(){
       for(let i = 0; i < this.pollutionArr.length; i++){
         this.pollution.update(this.DELTA_TIME, this.pollutionArr[i]);
       };
@@ -234,12 +233,7 @@ class App {
   animateBarrette(el){
       TweenMax.staggerFrom(el, 0.1,{opacity:0, y:-300, delay: 0.5}, 0.01);
     }
-  // animateBarretteIn(el){
-  //   TweenMax.staggerTo(el, 0.01,{backgroundColor:'#000', delay: 0.08}, 0.01);
-  // }
-  // animateBarretteOut(el){
-  //   TweenMax.staggerFrom(el, 0.01,{backgroundColor:'#000', delay: 0.08}, 0.01);
-  // }
+
 
 
 
