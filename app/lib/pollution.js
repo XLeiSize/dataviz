@@ -47,17 +47,6 @@ class Pollution {
         this.pool.push(n);
     }
 
-    // fonction throw qui affiche les particules
-    throw(nb){
-        for (let i = 0; i < nb; i++) {
-            let n = this.getNuageFromPool();
-
-            this.nuages.push(n);
-            console.log(n.position);
-            this.scene.addChild(n);
-        }
-    }
-
     update(dt, category){
         for(var i = 0; i < category.length; i++) {
 
@@ -74,7 +63,13 @@ class Pollution {
     throw1(nb, alpha, category){
         for (let i = 0; i < nb; i++) {
             let n = this.getNuageFromPool();
-            n.alpha = alpha;
+            n.alpha = 0;
+            setInterval(function(){
+                if(n.alpha != alpha){
+                    n.alpha += 0.1;
+                }
+            }, 100);
+            
             category.push(n);
             this.scene.addChild(n);
         }

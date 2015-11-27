@@ -1,15 +1,5 @@
-import d3 from 'd3';
-import Data from './data';
-
-// class Map {
-// 	constructor(options){
-// 		this.width = options.width;
-// 		this.height = options.height;
-// 	}
-// }
-// default export Map;
-
 import { Sprite } from 'pixi.js';
+import $ from 'jquery';
 
 class Tree extends Sprite {
     constructor(options){
@@ -28,20 +18,30 @@ class Tree extends Sprite {
         //    console.log("MOUSE OVER!");
         // }
         this.click = function(mouseData){
-		   document.getElementById('parc_infos').innerHTML = 
-		   							this.options.content.name + 
-		   							'<br>' + 
-		   							Math.round(this.options.content.surface /1000) +
-		   							"km<SUP>2</SUP>";
+            
+            $('#parc_infos').css({opacity:0});
             var margin = 40; 
-            document.getElementById("parc_infos").style.right = (margin)+"px";
+            // this.tint = 0x000;
+            setTimeout(function(){ 
+                $('#parc_infos').html( 
+                    '<b>'+options.content.name + 
+                    '</b><br>' + 
+                    Math.round(options.content.surface /1000) +
+                    "km<SUP>2</SUP>");
+                $('#parc_infos').css({opacity:1});
+            }, 500);
+
+
+            // document.getElementById("parc_infos").style.right = (margin)+"px";
 		}
+
+
      }
      update(dt){
         this.currentTime += dt;
 
         if(this.currentTime > 1000){
-            this.scale.factor += 0.1;
+            this.alpha +=0.1;
             this.currentTime = 0;
         }
      }

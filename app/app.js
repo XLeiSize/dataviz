@@ -15,7 +15,9 @@ class App {
 
   constructor() {
 
-    $('#arrow').click(function(){
+    // HOME PAGE ANIMATION
+    $('#arrow').click(function(e){
+      e.preventDefault();
       $('#overlayer').css({
        transform: 'translateY(-100%) ',
        MozTransform: 'translateY(-100%)',
@@ -32,8 +34,8 @@ class App {
     this.DELTA_TIME = 0;
     this.LAST_TIME = Date.now();
 
-    this.width = window.innerWidth/2;
-    this.height = window.innerHeight/2;
+    this.width = 850;
+    this.height = 650;
     let sceneOptions = {
       width: 800,
       height:645
@@ -77,11 +79,11 @@ class App {
     }); 
 
     this.pollutionName = [
-      '#voiture',
-      '#chauffage',
-      '#usine',
-      '#transport',
-      '#agriculture'
+      'voiture',
+      'chauffage',
+      'usine',
+      'transport',
+      'agriculture'
     ];
 
     this.pollutionArr = [
@@ -108,18 +110,41 @@ class App {
       0.9
     ];
 
+    
 
-    $('.pictos').click(function(){
-      for(let i = 0; i < this.pollutionArr.length; i++){
-         if( $(this.pollutionName[i]).hasClass('active')){
-            this.pollution.throw1(this.pollutionNb[i], this.pollutionAlpha[i],this.pollutionArr[i]);
-          }else{
-            this.pollution.clear(this.pollutionArr[i]);
-          };
-        }
-        
+    for(let i = 0; i < this.pollutionArr.length; i++){
+      let p =  document.getElementById(this.pollutionName[i]);
+      let bar = document.getElementsByClassName(''+this.pollutionName[i]+'');
+      // $(bar).append('<span>'+ this.pollutionNb[i] +'%</span>')
+      for(let j = 0; j<this.pollutionNb[i];j++){
+        $(bar).append('<span class="barrette"></span>');
+      }
+      emitter.on('closeHome', function(){
+        this.animateBarrette($(bar).children('.barrette'));
+      }.bind(this));
+      
+       $(p).click(function(){
+           if( $(p).hasClass('active')){
+              this.pollution.throw1(this.pollutionNb[i], this.pollutionAlpha[i],this.pollutionArr[i]);
+              // this.animateBarretteIn($(bar).children('.barrette'));
+              $(bar).children('.barrette').addClass('selected');
+              $('#message').children('.title').html(this.pollutionName[i] + " :"); 
+              $('#message').children('.description').html("Il représente " + this.pollutionNb[i] + "% du dyoxyde d'azote rejeté dans l'air. <br>");
+              
+            }else{
+              this.pollution.clear(this.pollutionArr[i]);
+              // this.animateBarretteOut($(bar).children('.barrette'));
+              $(bar).children('.barrette').removeClass('selected');
+              $('#message').children('h2').html(""); 
+              $('#message').children('.description').html("");
+            };
 
-    }.bind(this)); 
+
+         }.bind(this)); 
+     }
+
+
+
     
 
     this.addListeners();
@@ -147,14 +172,14 @@ class App {
     // emitter.on('pushEnd', function(){
       for(let i = 0; i < this.pollutionArr.length; i++){
         this.pollution.update(this.DELTA_TIME, this.pollutionArr[i]);
-      }
-      
-      // console.log(this.trees);
+      };
 
-      // for (let i = 0; i < this.trees.length; i++){
-      //   this.trees[i].update(this.DELTA_TIME);
-      // }
-    // }.bind(this));
+    emitter.on('MapLoaded', function(){
+      for (let i = 0; i < this.trees.length; i++){
+        this.trees[i].update(this.DELTA_TIME);
+      }
+    }.bind(this));
+      
     this.scene.render();
 
   }
@@ -166,8 +191,8 @@ class App {
    */
   onResize( evt ) {
 
-    this.width = window.innerWidth;
-    this.height = window.innerHeight;
+    this.width = 800;
+    this.height = 650;
 
     this.scene.resize( this.width, this.height );
 
@@ -176,9 +201,20 @@ class App {
 
   animateMap(){
     let el = document.getElementById('map');
-    TweenMax.staggerFrom(".ardt", 0.5,{opacity: 0, scale: 1.5, rotation:45, delay: 0.5}, 0.05);
-    TweenMax.from(".river", 0.5,{opacity: 0, scale: 1.5, rotation:45, delay: 1.55});
+    TweenMax.staggerFrom(".ardt", 0.5,{opacity: 0, scale: 1.5, rotation:45, delay: 1.2}, 0.05);
+    TweenMax.from(".river", 0.5,{opacity: 0, scale: 1.5, rotation:45, delay: 2, onComplete : emitter.emit('MapLoaded')});
   }
+  animateBarrette(el){
+      TweenMax.staggerFrom(el, 0.1,{opacity:0, y:-300, delay: 0.5}, 0.01);
+    }
+  // animateBarretteIn(el){
+  //   TweenMax.staggerTo(el, 0.01,{backgroundColor:'#000', delay: 0.08}, 0.01);
+  // }
+  // animateBarretteOut(el){
+  //   TweenMax.staggerFrom(el, 0.01,{backgroundColor:'#000', delay: 0.08}, 0.01);
+  // }
+
+
 
 
 

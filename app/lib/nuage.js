@@ -5,38 +5,27 @@ class Nuage extends Sprite {
         var texture = PIXI.Texture.fromImage("../img/nuage.png");
         super(texture);
         this.options = options;
-        this.x = this.options.x/2;
-        this.y = this.options.y/4;
-        this.scale.factor = 1;
+        this.x = Math.random()*(this.options.x+50)-50;
+        this.y = Math.random()*(this.options.y-100);
+        this.scale.factor = 1.5;
         this.scale.x = this.scale.factor;
         this.scale.y = this.scale.factor;
         this.anchor.x = 0.5;
         this.anchor.y = 0.5;
         this.life = Math.random() * 2000;
-        this.angle =  Utils.toRadians( Math.floor(Math.random() * 360) );
+        this.angle =  Utils.toRadians( Math.floor(Math.random() * 720) );
         this.v = Math.random();
-        this.click = function(mouseData){
-           console.log("MOUSE OVER nuage!");
-        }
+ 
      }
      update(dt){
-        this.angle =  Utils.toRadians( Math.random() * 360 );
+        this.angle =  Utils.toRadians( Math.random() * 360 -1 ) + 1;
         if(this.v < this.x && this.v < this.y){
-            this.v = Utils.getRandom(10, 20);
+            this.v = Utils.getRandom(0.3, 0.4);
         } else {
-            this.v = this.y;
+            this.v = this.y + 100;
         }
         this.x = this.x + this.v * Math.cos(this.angle);
         this.y = this.y + this.v * Math.sin(this.angle);
-        
-        // if(this.life <= 1000){
-        //     this.alpha =(this.life/1000);
-        // }
-        if(this.life <= 0){
-            this.isDead =  true;
-            console.log("DEAD");
-        }
-        // this.life -= dt;
     }
     reset(){
         this.x = this.options.x;

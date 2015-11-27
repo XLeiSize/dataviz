@@ -34,7 +34,7 @@ section.layer-1{
 	position:absolute;
 	top:50px;
 }
-.layer-1 #arrow{
+.arrow{
 	position:absolute;
 	bottom:50px;
 	right:50px;
@@ -68,7 +68,28 @@ h1 span{
 }
 
 #header{
-	font-size: 4rem;
+	font-size: 1.5rem;
+	position: absolute;
+	top:50px;
+	left:50px;
+	color:#FFFFFF;
+}
+
+#message{
+	color:#FFFFFF;
+	padding:20px 50px;
+}
+
+#message .line{
+	display: block;
+	width:30px;
+	height:1px;
+	border-bottom: 3px solid #FFF;
+	margin:20px 0;
+}
+
+h2{
+	text-transform: uppercase;
 }
 
 #parc_infos{
@@ -79,14 +100,19 @@ h1 span{
 	text-align: right;
 	display: block;
 	width:auto;
-	animation: animation 1.3565s 1 ease;
+	transition : all 0.3s ease-in-out;
 }
 
-svg{
+#parc_infos b{
+	font-size: 1.1rem;
+	text-transform: uppercase;
+}
+
+svg#map{
 	position: absolute;
 	top:50%;
 	margin-top: -300px;
-	right:90px;
+	right:3%;
 	z-index: -10;
 	width:800px;
 	overflow: visible;
@@ -96,15 +122,17 @@ canvas{
 	position: absolute;
 	top:50%;
 	margin-top: -300px;
-	right:90px;
+	right:3%;
+	overflow: hidden;
 }
+
 
 .pollution{
 	width:705px;
 	height:auto;
 	position: absolute;
 	bottom:20px;
-	left:20px;
+	left:3%;
 }
 .line{
 	display: inline-block;
@@ -128,7 +156,7 @@ canvas{
 	padding: 10px;
 	box-sizing:border-box;
 	vertical-align: middle;
-	transition:all 0.3s ease;
+	transition:all 0.5s ease;
 }
 
 .pictos>svg{
@@ -142,6 +170,7 @@ canvas{
 	margin-left: -25px;
 	margin-top: -20px;
 }
+
 
 #voiture{
 	background-image: url('../img/pictos/Picto-voiture.png');
@@ -183,29 +212,48 @@ canvas{
 	 
 }
 
+.bars{
+	display: block;
+}
+
+.bars .bar{
+	display: inline-block;
+	width:50px;
+	height:auto;
+	margin: 0 50px 10px 50px;
+	transition:all 0.5s ease;
+}
+
+.bars .bar .barrette{
+	display: block;
+	border-radius: 5px;
+	margin-bottom: 2px;
+	width: 45px;
+	height:5px;
+	background-color: #FFF;
+	transition:all 0.5s ease;
+}
+
+.barrette p {
+	display: inline-block;
+	position: relative;
+}
+
+.barrette.selected{
+	background-color:#000!important;
+}
+
+.bar:nth-child(1){
+	margin-left:25px;
+}
+.bar:last-child{
+	margin-right:0px;
+}
+
+.bar{
+
+}
 
 .pictos img{
 	margin:0 auto;
 }
-
-
-
-/*@-webkit-keyframes animation {
-from { -webkit-transform: rotate(0deg) scale(0.789) skew(0deg) translate(-300px); 
-		opacity:0;}
-to { -webkit-transform: rotate(0deg) scale(0.789) skew(0deg) translate(300px); 
-		opacity:1;}
-}
-@-moz-keyframes animation {
-from { -moz-transform: rotate(0deg) scale(0.789) skew(0deg) translate(-300px);
-		opacity:0; }
-to { -moz-transform: rotate(0deg) scale(0.789) skew(0deg) translate(300px); 
-		opacity:1;}
-}
-@-o-keyframes animation {
-from { -o-transform: rotate(0deg) scale(0.789) skew(0deg) translate(-300px);
-		opacity:0; }
-to { -o-transform: rotate(0deg) scale(0.789) skew(0deg) translate(300px);
-		opacity:1; }
-}
-*/

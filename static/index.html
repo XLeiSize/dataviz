@@ -27,11 +27,9 @@
             <h1><span>PARIS</span></h1>
             <h2>Nos espaces verts nous suffisent-ils ?</h2>
 
-            <a href="#" id="arrow"><img src="img/fleche.png" alt=""></a>
+            <a href="#" class="arrow" id="arrow"><img src="img/fleche.png" alt=""></a>
 
         </section>
-        
-
 <svg version="1.1" id="map" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
      viewBox="86.2 200.5 789 636.2" style="enable-background:new 86.2 200.5 789 636.2;" xml:space="preserve">
 <style type="text/css">
@@ -82,7 +80,6 @@
 <polygon class="st0 ardt" points="473.6,462.6 457.5,446.5 517.3,431.1 561.8,441.1 579.4,446.8 567.2,483.1 549,486 "/>
 <polygon class="st0 ardt" points="523.4,542.3 501.6,524.1 449,501.4 428.9,493.4 437.8,466.6 446.6,450.7 455.6,447 472.5,464.4
     548.9,488 566.6,485.2 563.4,495.3 547.1,539 537,554.6 "/>
-
 </svg>
 
 <svg class="svg-defs">
@@ -112,14 +109,30 @@
     l-8.1-4.6l-26.8-9.2l11.8,11.8L567.7,565.4z"/>
 </svg>
         <div id="header">
-            
+            <h1>LES ESPACES VERTS <br> & LE NO<SUB>2</SUB></h1>
         </div>
-
+        <div id="message">
+            <h2 class="title"></h2>
+            <span class="line"></span>
+            <p class="description"></p>
+        </div>
 		<div id="parc_infos">
-			<p>PARIS</p>
+			<p>Cliquez sur les arbres pour afficher les informations sur les espaces verts parisiens intra-muros</p>
 		</div>
 
+
+        
+        
         <div class="pollution">
+            <div class="bars">
+                <div class="bar voiture">
+                </div><!-- 
+             --><div class="bar chauffage"></div><!-- 
+             --><div class="bar usine"></div><!-- 
+             --><div class="bar transport"></div><!-- 
+             --><div class="bar agriculture"></div>
+            </div>
+
             <div class="pictos" id="voiture">
                 
             </div><!-- 
@@ -142,6 +155,14 @@
 
             </div>
         </div>
+
+
+        <section class="layer-2" id="underlayer">
+
+
+            <a href="#" class="arrow"><img src="img/fleche.png" alt=""></a>
+
+        </section>
 
 	    <div class="app"></div>
 	    <script src="js/vendor/TweenMax.min.js"></script>

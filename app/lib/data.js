@@ -26,7 +26,7 @@ class Data {
 				    return b.fields.surface_to - a.fields.surface_to;
 				});
 
-				console.log(data);
+				// console.log(data);
 
 				var somme =0;
 
